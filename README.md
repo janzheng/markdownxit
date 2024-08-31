@@ -2,7 +2,7 @@
 
 **markdownxit** is a custom Visual Studio Code extension that provides syntax highlighting and token color customization for Markdown files with task-specific features.
 
-This is based on `xit!` at https://xit.jotaen.net/ and injects some xit colors into markdown styles.
+This is based on [x]it! at https://xit.jotaen.net/ and injects a splash of colors into markdown styling.
 
 
 ## Installation
@@ -14,7 +14,6 @@ This is based on `xit!` at https://xit.jotaen.net/ and injects some xit colors i
 ## Making it your own
 
 Edit the theme in `package.json` then create a new package with `vsce package`
-
 
 
 ## Usage
@@ -29,3 +28,27 @@ Simply write your tasks in the Markdown file using the supported syntax, and the
   - `[?]` for tasks in question
 - Supports `.md` and `.xit` file extensions.
 - Custom color theme for enhanced readability.
+
+## Tasks & Roadmap
+
+[ ] Post to the [x]it! discussion forum: https://github.com/jotaen/xit/discussions
+[@] Enjoy not working on this anymore
+[x] Develop VS Code extension for XIT support
+[x] Create GitHub repository for the extension
+[x] Test extension functionality locally
+[x] Package extension as .vsix file
+[x] Successfully install and test .vsix file
+[?] Publish extension to VS Code Marketplace
+    - Research submission requirements
+    - Prepare necessary documentation
+    - Set up publisher account if needed
+[?] Gather user feedback and implement improvements
+[?] Consider adding more features (e.g., custom XIT symbols, project-wide task tracking)
+
+
+
+
+## License
+
+MIT
+
