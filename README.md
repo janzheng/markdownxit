@@ -1,6 +1,7 @@
 # markdownxit
 
-![markdownxit](https://github.com/janzheng/markdownxit/blob/master/sample.png?raw=true)
+![image](https://github.com/user-attachments/assets/1bcc6934-9da3-4f64-abfb-479bb2a977ce)
+
 
 **markdownxit** is a custom Visual Studio Code extension that provides syntax highlighting and token color customization for Markdown files with task-specific features.
 
