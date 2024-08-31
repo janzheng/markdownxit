@@ -4,12 +4,22 @@
 
 This is based on `xit!` at https://xit.jotaen.net/ and injects some xit colors into markdown styles.
 
-- Install the package in VS Code or Cursor with `cmd + shift + p` and `install from VSIX`.
-- Publish with `vsce package` and install in VS Code with `code --install-extension markdownxit-<version>.vsix`.
+
+## Installation
+
+1. Download the .vsix file from the repo.
+2. Install the package in VS Code or Cursor with `cmd + shift + p` and `install from VSIX`.
+
+
+## Making it your own
+
+Edit the theme in `package.json` then create a new package with `vsce package`
 
 
 
-## Features
+## Usage
+
+Simply write your tasks in the Markdown file using the supported syntax, and the extension will automatically apply the appropriate styles and colors.
 
 - Syntax highlighting for various task states in Markdown files, including:
   - `[x]` for checked/done tasks
@@ -19,13 +29,3 @@ This is based on `xit!` at https://xit.jotaen.net/ and injects some xit colors i
   - `[?]` for tasks in question
 - Supports `.md` and `.xit` file extensions.
 - Custom color theme for enhanced readability.
-
-## Installation
-
-1. Download and install the extension from the VS Code Marketplace.
-2. Open a Markdown file or create a new file with a `.md` or `.xit` extension.
-3. Select the "MarkdownXit" color theme from the VS Code theme picker (`Ctrl+K Ctrl+T`).
-
-## Usage
-
-Simply write your tasks in the Markdown file using the supported syntax, and the extension will automatically apply the appropriate styles and colors.
