@@ -1,0 +1,121 @@
+{
+  "name": "markdownxit",
+  "displayName": "MarkdownXit",
+  "description": "Adds xit-style todo highlighting to Markdown",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.20.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "injectTo": [
+          "text.html.markdown"
+        ],
+        "scopeName": "markdown.xit.injection",
+        "path": "./syntaxes/markdownxit.tmLanguage.json"
+      }
+    ],
+    "configurationDefaults": {
+      "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": "keyword.operator.xit.todo.open.bracket",
+            "settings": {
+              "foreground": "#FFFF00"
+            }
+          },
+          {
+            "scope": "keyword.operator.xit.todo.open.symbol",
+            "settings": {
+              "foreground": "#FFFF00"
+            }
+          },
+          {
+            "scope": "markup.xit.todo.open.content",
+            "settings": {
+              "foreground": "#EEEEEE"
+            }
+          },
+          {
+            "scope": "keyword.operator.xit.todo.active.bracket",
+            "settings": {
+              "foreground": "#FFFF00"
+            }
+          },
+          {
+            "scope": "keyword.operator.xit.todo.active.symbol",
+            "settings": {
+              "foreground": "#66D9EF"
+            }
+          },
+          {
+            "scope": "markup.xit.todo.active.content",
+            "settings": {
+              "foreground": "#EEEEEE"
+            }
+          },
+          {
+            "scope": "keyword.operator.xit.todo.question.bracket",
+            "settings": {
+              "foreground": "#797979"
+            }
+          },
+          {
+            "scope": "keyword.operator.xit.todo.question.symbol",
+            "settings": {
+              "foreground": "#A6E22E"
+            }
+          },
+          {
+            "scope": "markup.xit.todo.question.content",
+            "settings": {
+              "foreground": "#BBBBBB"
+            }
+          },
+          {
+            "scope": "keyword.operator.xit.todo.obsolete.bracket",
+            "settings": {
+              "foreground": "#797979"
+            }
+          },
+          {
+            "scope": "keyword.operator.xit.todo.obsolete.symbol",
+            "settings": {
+              "foreground": "#797979"
+            }
+          },
+          {
+            "scope": "markup.xit.todo.obsolete.content",
+            "settings": {
+              "foreground": "#797979",
+              "fontStyle": "strikethrough"
+            }
+          },
+          {
+            "scope": "keyword.operator.xit.todo.completed.bracket",
+            "settings": {
+              "foreground": "#797979"
+            }
+          },
+          {
+            "scope": "keyword.operator.xit.todo.completed.symbol",
+            "settings": {
+              "foreground": "#797979"
+            }
+          },
+          {
+            "scope": "markup.xit.todo.completed.content",
+            "settings": {
+              "foreground": "#797979",
+              "fontStyle": "strikethrough"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
