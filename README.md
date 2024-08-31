@@ -4,7 +4,8 @@
 
 This is based on `xit!` at https://xit.jotaen.net/ and injects some xit colors into markdown styles.
 
-Publish with `vsce package` and install in VS Code with `code --install-extension markdownxit-<version>.vsix`.
+- Install the package in VS Code or Cursor with `cmd + shift + p` and `install from VSIX`.
+- Publish with `vsce package` and install in VS Code with `code --install-extension markdownxit-<version>.vsix`.
 
 
 
