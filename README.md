@@ -29,34 +29,25 @@ Simply write your tasks in the Markdown file using the supported syntax, and the
   - `[~]` for obsolete/cancelled tasks
   - `[?]` for tasks in question
 - Supports `.md` and `.xit` file extensions.
+- Supports Github-style markdown task lists, e.g. `- [x] do something`.
 - Custom color theme for enhanced readability.
 
 ## Tasks & Roadmap
 
-(these are spaced out because Github doesn't like single newlines)
-
-[ ] Post to the [x]it! discussion forum: https://github.com/jotaen/xit/discussions
-
-[@] Enjoy not working on this anymore
-
-[x] Develop VS Code extension for XIT support
-
-[x] Create GitHub repository for the extension
-
-[x] Test extension functionality locally
-
-[x] Package extension as .vsix file
-
-[x] Successfully install and test .vsix file
-
-[?] Publish extension to VS Code Marketplace
+- [ ] Post to the [x]it! discussion forum: https://github.com/jotaen/xit/discussions
+- [@] Enjoy not working on this anymore
+- [x] Develop VS Code extension for XIT support
+- [x] Create GitHub repository for the extension
+- [x] Test extension functionality locally
+- [x] Package extension as .vsix file
+- [x] Successfully install and test .vsix file
+- [?] Publish extension to VS Code Marketplace
     - Research submission requirements
     - Prepare necessary documentation
     - Set up publisher account if needed
-
-[?] Gather user feedback and implement improvements
-
-[?] Consider adding more features (e.g., custom XIT symbols, project-wide task tracking)
+- [ ] Add support for Github-style markdown task lists
+- [?] Gather user feedback and implement improvements
+- [?] Consider adding more features (e.g., custom XIT symbols, project-wide task tracking)
 
 
 

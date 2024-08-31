@@ -10,71 +10,71 @@
     "xit-todos": {
       "patterns": [
         {
-          "match": "^\\s*(\\[( )\\])\\s(.*)$",
+          "match": "^\\s*(-\\s)?\\s*(\\[( )\\])\\s(.*)$",
           "captures": {
-            "1": {
+            "2": {
               "name": "keyword.operator.xit.todo.open.bracket"
             },
-            "2": {
+            "3": {
               "name": "keyword.operator.xit.todo.open.symbol"
             },
-            "3": {
+            "4": {
               "name": "markup.xit.todo.open.content"
             }
           }
         },
         {
-          "match": "^\\s*(\\[(@)\\])\\s(.*)$",
+          "match": "^\\s*(-\\s)?\\s*(\\[(@)\\])\\s(.*)$",
           "captures": {
-            "1": {
+            "2": {
               "name": "keyword.operator.xit.todo.active.bracket"
             },
-            "2": {
+            "3": {
               "name": "keyword.operator.xit.todo.active.symbol"
             },
-            "3": {
+            "4": {
               "name": "markup.xit.todo.active.content"
             }
           }
         },
         {
-          "match": "^\\s*(\\[(x)\\])\\s(.*)$",
+          "match": "^\\s*(-\\s)?\\s*(\\[(x)\\])\\s(.*)$",
           "captures": {
-            "1": {
+            "2": {
               "name": "keyword.operator.xit.todo.completed.bracket"
             },
-            "2": {
+            "3": {
               "name": "keyword.operator.xit.todo.completed.symbol"
             },
-            "3": {
+            "4": {
               "name": "markup.xit.todo.completed.content"
             }
           }
         },
         {
-          "match": "^\\s*(\\[(~)\\])\\s(.*)$",
+          "match": "^\\s*(-\\s)?\\s*(\\[(~)\\])\\s(.*)$",
           "captures": {
-            "1": {
+            "2": {
               "name": "keyword.operator.xit.todo.obsolete.bracket"
             },
-            "2": {
+            "3": {
               "name": "keyword.operator.xit.todo.obsolete.symbol"
             },
-            "3": {
+            "4": {
               "name": "markup.xit.todo.obsolete.content"
             }
           }
         },
         {
-          "match": "^\\s*(\\[(\\?)\\])\\s(.*)$",
+          "match": "^\\s*(-\\s)?\\s*(\\[(\\?)\\])\\s(.*)$",
           "captures": {
-            "1": {
+            "2": {
               "name": "keyword.operator.xit.todo.question.bracket"
             },
-            "2": {
+            "3": {
               "name": "keyword.operator.xit.todo.question.symbol"
             },
-            "3": {
+            "4": {
               "name": "markup.xit.todo.question.content"
             }
           }
